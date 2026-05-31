@@ -37,7 +37,7 @@ const projects = [
     title: 'JobIntelligent Data Platform',
     description:
       'Job offers analysis and recommendation platform based on a Medallion architecture.',
-    techs: ['Python', 'Airflow', 'FastAPI', 'MinIO', 'PostgreSQL', 'NLP', 'Docker'],
+    techs: ['Python', 'Airflow', 'FastAPI', 'MinIO', 'PostgreSQL', 'Power BI', 'NLP', 'Docker'],
     bgClass: 'project-card__image-bg--1',
     emoji: '💼',
     github: 'https://github.com/amina-dourdi/JobIntelligent-Data-Platform',
@@ -54,11 +54,31 @@ const projects = [
     date: 'Jan. 2026',
   },
   {
+    title: 'Fashion-MNIST Classification',
+    description:
+      'Fashion-MNIST image classification and comparison of Machine Learning models: Logistic Regression, SVM, Random Forest. Data preprocessing and scaling.',
+    techs: ['Python', 'scikit-learn', 'SVM', 'Random Forest'],
+    bgClass: 'project-card__image-bg--3',
+    emoji: '👗',
+    github: 'https://github.com/amina-dourdi/Fashion-MNIST-Classification-using-Machine-Learning',
+    date: 'Dec. 2025',
+  },
+  {
+    title: 'House Prices Regression End-to-End',
+    description:
+      'End-to-end regression on Kaggle House Prices: exploratory data analysis (EDA), feature engineering, and hyperparameter tuning for real estate price prediction.',
+    techs: ['Python', 'pandas', 'scikit-learn', 'EDA', 'Feature Engineering'],
+    bgClass: 'project-card__image-bg--1',
+    emoji: '🏠',
+    github: 'https://github.com/amina-dourdi/machine-learning-regression-end-to-end',
+    date: 'Dec. 2025',
+  },
+  {
     title: 'MongoDB Performance Optimization & Sharded Cluster',
     description:
       'Pipeline for preparation and ingestion of FHV data into MongoDB. Comparison and evaluation of indexes (single, compound, hashed) and deployment of a sharded MongoDB cluster via Docker.',
     techs: ['Python', 'MongoDB', 'Dash/Plotly', 'Docker'],
-    bgClass: 'project-card__image-bg--3',
+    bgClass: 'project-card__image-bg--2',
     emoji: '🗄️',
     github: 'https://github.com/amina-dourdi/fhv-tripdata-mongodb-optimization',
     date: 'Nov. 2025',
@@ -68,30 +88,10 @@ const projects = [
     description:
       'Application for patient data entry, disease tracking, and statistical analysis with visualization. Complete desktop and web interface for hospital management.',
     techs: ['Python', 'Tkinter', 'Pandas', 'Matplotlib', 'PHP', 'HTML/CSS/JS', 'MySQL'],
-    bgClass: 'project-card__image-bg--1',
+    bgClass: 'project-card__image-bg--3',
     emoji: '🏥',
     github: 'https://github.com/amina-dourdi/Medical-Data-Management-and-Statistics',
     date: 'Mar. 2025',
-  },
-  {
-    title: 'House Prices Regression End-to-End',
-    description:
-      'End-to-end regression on Kaggle House Prices: exploratory data analysis (EDA), feature engineering, and hyperparameter tuning for real estate price prediction.',
-    techs: ['Python', 'pandas', 'scikit-learn', 'EDA', 'Feature Engineering'],
-    bgClass: 'project-card__image-bg--2',
-    emoji: '🏠',
-    github: 'https://github.com/amina-dourdi/machine-learning-regression-end-to-end',
-    date: 'Dec. 2025',
-  },
-  {
-    title: 'Fashion-MNIST Classification',
-    description:
-      'Fashion-MNIST image classification and comparison of Machine Learning models: Logistic Regression, SVM, Random Forest. Data preprocessing and scaling.',
-    techs: ['Python', 'scikit-learn', 'SVM', 'Random Forest'],
-    bgClass: 'project-card__image-bg--3',
-    emoji: '👗',
-    github: 'https://github.com/amina-dourdi/Fashion-MNIST-Classification-using-Machine-Learning',
-    date: 'Dec. 2025',
   },
   {
     title: 'Weather Forecasting Application',
