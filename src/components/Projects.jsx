@@ -4,20 +4,30 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 
 const projects = [
   {
+    title: 'AI Sign Language Translation System',
+    description:
+      'Development of an AI system for automatic sign language-to-text translation. Designed an end-to-end approach based on Transformers, CTC Loss, and Pose-to-Text. Utilized the RWTH-PHOENIX-Weather 2014 dataset for continuous sign language translation. Evaluated using WER, BLEU-4, ROUGE, and CHRF metrics.',
+    techs: ['Python', 'Deep Learning', 'Transformers', 'NLP', 'Computer Vision', 'Pose Estimation'],
+    bgClass: 'project-card__image-bg--1',
+    emoji: '🤟',
+    github: 'https://github.com/amina-dourdi/sign-language-translation',
+    date: 'May 2026',
+  },
+  {
     title: 'Collaborative Annotation Platform',
     description:
       'Web application for text annotation, annotation quality monitoring, and model training.',
-    techs: ['Spring Boot', 'Thymeleaf', 'MySQL', 'Spring Security', 'Python'],
+    techs: ['Spring Boot', 'Thymeleaf', 'MySQL/MariaDB', 'Spring Security', 'Python'],
     bgClass: 'project-card__image-bg--2',
     emoji: '📝',
-    github: '',
+    github: 'https://github.com/amina-dourdi/Intelligent-Annotation-Model-Management-System',
     date: 'May 2026',
   },
   {
     title: 'TaaSim — Urban Mobility Big Data Platform',
     description:
       'Big Data platform for urban mobility: GPS data ingestion, real-time processing, and demand forecasting.',
-    techs: ['Python', 'Kafka', 'Flink', 'Spark', 'Cassandra', 'Docker'],
+    techs: ['Python', 'Kafka', 'Flink', 'Spark', 'MinIO', 'Cassandra', 'Docker'],
     bgClass: 'project-card__image-bg--3',
     emoji: '🚦',
     github: '',
@@ -27,10 +37,10 @@ const projects = [
     title: 'JobIntelligent Data Platform',
     description:
       'Job offers analysis and recommendation platform based on a Medallion architecture.',
-    techs: ['Python', 'Airflow', 'FastAPI', 'MinIO', 'PostgreSQL', 'NLP'],
+    techs: ['Python', 'Airflow', 'FastAPI', 'MinIO', 'PostgreSQL', 'NLP', 'Docker'],
     bgClass: 'project-card__image-bg--1',
     emoji: '💼',
-    github: '',
+    github: 'https://github.com/amina-dourdi/JobIntelligent-Data-Platform',
     date: 'Apr. 2026',
   },
   {
@@ -38,7 +48,7 @@ const projects = [
     description:
       'Batch pipeline for procurement: ingestion, processing, net demand calculation, and generation of supplier orders. Complete data engineering architecture with distributed storage.',
     techs: ['Python', 'HDFS', 'Trino', 'PostgreSQL', 'Avro', 'Docker'],
-    bgClass: 'project-card__image-bg--1',
+    bgClass: 'project-card__image-bg--2',
     emoji: '🔄',
     github: 'https://github.com/amina-dourdi/batch-procurement-data-pipeline',
     date: 'Jan. 2026',
@@ -48,7 +58,7 @@ const projects = [
     description:
       'Pipeline for preparation and ingestion of FHV data into MongoDB. Comparison and evaluation of indexes (single, compound, hashed) and deployment of a sharded MongoDB cluster via Docker.',
     techs: ['Python', 'MongoDB', 'Dash/Plotly', 'Docker'],
-    bgClass: 'project-card__image-bg--2',
+    bgClass: 'project-card__image-bg--3',
     emoji: '🗄️',
     github: 'https://github.com/amina-dourdi/fhv-tripdata-mongodb-optimization',
     date: 'Nov. 2025',
@@ -57,8 +67,8 @@ const projects = [
     title: 'Medical Data Management & Statistics',
     description:
       'Application for patient data entry, disease tracking, and statistical analysis with visualization. Complete desktop and web interface for hospital management.',
-    techs: ['Python', 'Tkinter', 'Pandas', 'Matplotlib', 'PHP', 'MySQL'],
-    bgClass: 'project-card__image-bg--3',
+    techs: ['Python', 'Tkinter', 'Pandas', 'Matplotlib', 'PHP', 'HTML/CSS/JS', 'MySQL'],
+    bgClass: 'project-card__image-bg--1',
     emoji: '🏥',
     github: 'https://github.com/amina-dourdi/Medical-Data-Management-and-Statistics',
     date: 'Mar. 2025',
@@ -68,7 +78,7 @@ const projects = [
     description:
       'End-to-end regression on Kaggle House Prices: exploratory data analysis (EDA), feature engineering, and hyperparameter tuning for real estate price prediction.',
     techs: ['Python', 'pandas', 'scikit-learn', 'EDA', 'Feature Engineering'],
-    bgClass: 'project-card__image-bg--1',
+    bgClass: 'project-card__image-bg--2',
     emoji: '🏠',
     github: 'https://github.com/amina-dourdi/machine-learning-regression-end-to-end',
     date: 'Dec. 2025',
@@ -77,8 +87,8 @@ const projects = [
     title: 'Fashion-MNIST Classification',
     description:
       'Fashion-MNIST image classification and comparison of Machine Learning models: Logistic Regression, SVM, Random Forest. Data preprocessing and scaling.',
-    techs: ['Python', 'scikit-learn', 'ML', 'SVM', 'Random Forest'],
-    bgClass: 'project-card__image-bg--2',
+    techs: ['Python', 'scikit-learn', 'SVM', 'Random Forest'],
+    bgClass: 'project-card__image-bg--3',
     emoji: '👗',
     github: 'https://github.com/amina-dourdi/Fashion-MNIST-Classification-using-Machine-Learning',
     date: 'Dec. 2025',
@@ -87,13 +97,14 @@ const projects = [
     title: 'Weather Forecasting Application',
     description:
       'Real-time data retrieval and weather forecasting via OpenWeatherMap and Open-Meteo APIs. Intuitive user interface for checking forecasts.',
-    techs: ['Python', 'API REST', 'OpenWeatherMap', 'Open-Meteo'],
-    bgClass: 'project-card__image-bg--3',
+    techs: ['Python', 'OpenWeatherMap', 'Open-Meteo'],
+    bgClass: 'project-card__image-bg--1',
     emoji: '🌤️',
-    github: 'https://github.com/amina-dourdi/Application-Weather',
+    github: 'https://github.com/amina-dourdi/ApplicationWeather',
     date: 'Feb. 2025',
   },
 ]
+
 
 export default function Projects() {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })

@@ -11,21 +11,25 @@ Here is the complete information about Amina:
 - Status: Data Engineering Student at the National School of Applied Sciences (ENSA) of Al-Hoceima, Morocco (2024-present).
 - Availability: Looking for a 3-month internship starting in July 2026 in France, Morocco, the Netherlands, and the European Union (she holds Dutch/EU nationality).
 - Key technical skills: 
-  * Programming: Python, SQL, Java, C, R.
+  * Programming: Python, SQL, Java, C, R, PL/SQL, Matlab.
   * Big Data & Data Eng: Hadoop HDFS, Trino, Avro, Kafka, Flink, Spark, Airflow, Docker, ETL Pipelines.
-  * Databases: MySQL, PostgreSQL, Oracle, MongoDB, Cassandra.
-  * Analytics & ML: Pandas, NumPy, Matplotlib, scikit-learn, Power BI, Machine Learning, NLP.
-  * Web Dev: Spring Boot, FastAPI, Thymeleaf, React, PHP.
+  * Databases: MySQL, PostgreSQL, Oracle, MongoDB, Cassandra, MariaDB.
+  * Analytics & ML: Pandas, NumPy, Matplotlib, scikit-learn, Power BI, Machine Learning, Deep Learning, NLP, Computer Vision, Pose Estimation.
+  * Web Dev: Spring Boot, FastAPI, Thymeleaf, React, PHP, HTML, CSS, JavaScript, Bootstrap.
 - Professional Experience:
   * (Jul-Sep 2025) Intern at Terra Nova EBS: Development of a digital dashboard on Power BI for aeronautical purchases.
   * (Jun-Aug 2025) Intern at CH Provincial Med VI: Medical data management.
 - Notable Projects:
-  1. Collaborative Annotation Platform (Spring Boot, Thymeleaf, Python).
-  2. TaaSim — Urban Mobility Big Data Platform (Kafka, Flink, Spark, Cassandra).
-  3. JobIntelligent Data Platform (Airflow, FastAPI, PostgreSQL, NLP).
-  4. Batch Procurement Data Pipeline (Python, HDFS, Trino, Postgres).
-  5. MongoDB Performance Optimization & Sharded Cluster.
-  6. Regression House Prices End-to-End (Kaggle).
+  1. AI Sign Language Translation System (Python, Deep Learning, Transformers, NLP, Computer Vision, Pose Estimation) - automatic sign language-to-text translation using Transformers and CTC Loss.
+  2. Collaborative Annotation Platform (Spring Boot, Thymeleaf, MySQL/MariaDB, Spring Security, Python) - collaborative web application for text annotation and model training.
+  3. TaaSim — Urban Mobility Big Data Platform (Python, Kafka, Flink, Spark, MinIO, Cassandra, Docker) - GPS ingestion and demand forecasting.
+  4. JobIntelligent Data Platform (Python, Airflow, FastAPI, MinIO, PostgreSQL, NLP, Docker) - recommendation platform using Medallion architecture.
+  5. Batch Procurement Data Pipeline (Python, HDFS, Trino, PostgreSQL, Avro, Docker) - distributed data pipeline for procurement.
+  6. MongoDB Performance Optimization & Sharded Cluster (Python, MongoDB, Dash/Plotly, Docker).
+  7. House Prices Regression End-to-End (Python, pandas, scikit-learn) - Kaggle real estate prediction.
+  8. Fashion-MNIST Classification (Python, scikit-learn, SVM, Random Forest) - image classification.
+  9. Medical Data Management & Statistics (Python, Tkinter, Pandas, Matplotlib, PHP, HTML/CSS/JS, MySQL) - patient medical data and analytics.
+  10. Weather Forecasting Application (Python, OpenWeatherMap, Open-Meteo) - real-time weather retrieval and UI.
 - Certifications: Supervised Learning with Scikit-Learn (DataCamp), Power BI (Udemy).
 - Languages: Tarifit (Native), Arabic, French, English (Intermediate), Dutch, Spanish.
 - Qualities: Problem-solving, Adaptability, Teamwork, Rigor.
