@@ -81,7 +81,7 @@ export default function Hero() {
 
             <motion.div className="hero__stats" variants={fadeUp} custom={5}>
               <div className="hero__stat">
-                <div className="hero__stat-number">6+</div>
+                <div className="hero__stat-number">10+</div>
                 <div className="hero__stat-label">Projects</div>
               </div>
               <div className="hero__stat">
@@ -89,7 +89,7 @@ export default function Hero() {
                 <div className="hero__stat-label">Internships</div>
               </div>
               <div className="hero__stat">
-                <div className="hero__stat-number">2</div>
+                <div className="hero__stat-number">3</div>
                 <div className="hero__stat-label">Certifications</div>
               </div>
               <div className="hero__stat">
