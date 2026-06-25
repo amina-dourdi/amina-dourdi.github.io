@@ -4,10 +4,20 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 
 const projects = [
   {
+    title: 'NLP Transformers & RAG Platform',
+    description:
+      'NLP platform for classification, sentiment analysis, question answering, and automatic summarization with Transformers. RAG system with academic document indexing, semantic search, and content-based chatbot.',
+    techs: ['Python', 'Hugging Face', 'Sentence-Transformers', 'FAISS', 'Streamlit'],
+    bgClass: 'project-card__image-bg--2',
+    emoji: '🤖',
+    github: 'https://github.com/amina-dourdi/nlp-transformers-rag',
+    date: 'Jun. 2026',
+  },
+  {
     title: 'AI Sign Language Translation System',
     description:
       'Development of an AI system for automatic sign language-to-text translation. Designed an end-to-end approach based on Transformers, CTC Loss, and Pose-to-Text. Utilized the RWTH-PHOENIX-Weather 2014 dataset for continuous sign language translation. Evaluated using WER, BLEU-4, ROUGE, and CHRF metrics.',
-    techs: ['Python', 'Deep Learning', 'Transformers', 'NLP', 'Computer Vision', 'Pose Estimation'],
+    techs: ['Python', 'PyTorch', 'MediaPipe', 'FastAPI', 'WebSockets', 'Transformers'],
     bgClass: 'project-card__image-bg--1',
     emoji: '🤟',
     github: 'https://github.com/amina-dourdi/sign-language-translation',
@@ -21,7 +31,7 @@ const projects = [
     bgClass: 'project-card__image-bg--2',
     emoji: '📝',
     github: 'https://github.com/amina-dourdi/Intelligent-Annotation-Model-Management-System',
-    date: 'May 2026',
+    date: 'Jun. 2026',
   },
   {
     title: 'TaaSim — Urban Mobility Big Data Platform',
@@ -30,8 +40,8 @@ const projects = [
     techs: ['Python', 'Kafka', 'Flink', 'Spark', 'MinIO', 'Cassandra', 'Docker'],
     bgClass: 'project-card__image-bg--3',
     emoji: '🚦',
-    github: '',
-    date: 'Apr. 2026',
+    github: 'https://github.com/amina-dourdi/taasim-urban-mobility-platform',
+    date: 'Jun. 2026',
   },
   {
     title: 'JobIntelligent Data Platform',

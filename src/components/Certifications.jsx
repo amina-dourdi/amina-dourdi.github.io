@@ -5,6 +5,12 @@ import { FiCpu } from 'react-icons/fi'
 
 const certifications = [
   {
+    title: 'Oracle Certified Professional: Java SE 17 Developer',
+    issuer: 'Oracle (Jun. 2026)',
+    description: 'Professional certification in Java SE 17 development.',
+    icon: <FiAward />,
+  },
+  {
     title: 'Supervised Learning with Scikit-Learn',
     issuer: 'DataCamp',
     description: 'Practical training on supervised machine learning models.',
